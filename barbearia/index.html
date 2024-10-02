@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!---->
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+  <title>Dev Barber - Sua barbearia!</title>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <div class="bg-home">
+    <header>
+
+      <nav class="cabecalho-conteudo container">
+        <div class="cabecalho-icones" data-aos="fade-down">
+            <a href="https://www.instagram.com/senaisuzano/">
+                <i class="fa-brands fa-instagram fa-2x"></i>   
+               </a>
+               <a href="https://www.facebook.com/senaisp.suzano/">
+                 <i class="fa-brands fa-facebook fa-2x"></i>   
+               </a>
+               <a href="https://www.tiktok.com/tag/senai">
+                 <i class="fa-brands fa-tiktok fa-2x"></i>   
+               </a>
+        </div>
+
+        <div class="cabecalho-logo" data-aos="fade-up" data-aos-delay="300">
+          <img 
+            data-aos="flip-up"
+            data-aos-delay="300"
+            data-aos-duration="1500"
+            src="assets/logo.svg" 
+            alt="Logo da barbearia"
+          />
+        </div>
+
+        <div data-aos="fade-down">
+          <a class="cabecalho-botao" href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!">
+            Agendar horário
+          </a>
+        </div>
+
+      </nav>
+
+      <main class="principal container" data-aos="fade-up" data-aos-delay="400">
+        <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.</h1>
+        <p>Horário de funcionamento: 09:00 ás 19:00</p>
+        <a 
+          href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!" 
+          class="botao-contato" 
+          target="_blank">
+          Agendar horário
+        </a>
+      </main>
+
+    </header>
+
+  </div>
+
+  <!-- Sobre -->
+  <section class="sobre">
+    <div class="sobre-conteudo container">
+      <div data-aos="zoom-in" data-aos-delay="100">
+        <img 
+          src="assets/images.svg" 
+          alt="Imagem sobre a barbearia"
+        />
+      </div>
+
+      <div 
+        class="sobre-descricao"
+        data-aos="zoom-out-left" data-aos-delay="250"
+      >
+        <h2>Sobre</h2>
+        <p>Na Wash Barbearia, oferecemos uma experiência única e sofisticada para homens que valorizam estilo, conforto e cuidado pessoal. Nossa equipe de barbeiros altamente qualificados está pronta para transformar sua aparência com serviços de corte de cabelo, corte e tratamento de barba de primeira classe.</p>
+        <p>Seja um corte tradicional ou um estilo mais contemporâneo, estamos aqui para realizar sua visão.</p>
+        <p>Horário de funcionamento: <strong>09:00</strong> ás <strong>19:00</strong></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+
+  <section class="servicos">
+
+    <div class="servicos-conteudo container">
+      <h2>Serviços</h2>
+      <p> Nosso serviço de corte de cabelo é personalizado para atender às suas necessidades e preferências. Utilizamos técnicas modernas e clássicas para garantir que você saia com um visual impecável e adequado ao seu estilo pessoal.</p>
+    </div>
+
+    <section class="cortes">
+
+      <div class="corte" data-aos="fade-up" data-aos-delay="150">
+        <img
+          src="assets/corte1.png"
+          alt="Corte normal"
+        />
+        <div class="corte-info">
+          <strong>Corte normal</strong>
+          <button>
+            R$ 45,00
+          </button>
+        </div>
+      </div>
+
+      <div class="corte" data-aos="fade-up" data-aos-delay="250">
+        <img
+          src="assets/corte2.png"
+          alt="Barba completa"
+        />
+        <div class="corte-info">
+          <strong>Barba completa</strong>
+          <button>
+            R$ 35,00
+          </button>
+        </div>
+      </div>
+
+      <div class="corte" data-aos="fade-up" data-aos-delay="400">
+        <img
+          src="assets/corte3.png"
+          alt="Corte e barba"
+        />
+        <div class="corte-info">
+          <strong>Corte e barba</strong>
+          <button>
+            R$ 85,00
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+  </section>
+
+  <!-- RODAPÉ -->
+
+  <div class="rodape">
+    <h2>Venha conhecer</h2>
+    <p>Estamos prontos para recebê-lo e proporcionar um atendimento excepcional. </p><p>Agende seu horário online ou entre em contato conosco pelo telefone.</p>
+    <address> Rua Inácio Garcia, 321 - Cid. Edson - Suzano - SP</address>
+  </div>
+
+  <iframe
+  width="100%"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.328248579776!2d-46.3161873246699!3d-23.556651578803027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce709cdd72cb8d%3A0xa0c48f485457b882!2sEscola%20SENAI%20%22Luis%20Eulalio%20de%20Bueno%20Vidigal%20Filho%22!5e0!3m2!1spt-BR!2sbr!4v1727791685912!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <footer class="rodape">
+    <div class="rodape-icones">
+      <a href="https://www.instagram.com/senaisuzano/">
+        <i class="fa-brands fa-instagram fa-2x"></i>   
+       </a>
+       <a href="https://www.facebook.com/senaisp.suzano/">
+         <i class="fa-brands fa-facebook fa-2x"></i>   
+       </a>
+       <a href="https://www.tiktok.com/tag/senai">
+         <i class="fa-brands fa-tiktok fa-2x"></i>   
+       </a>
+    </div>
+
+    <div>
+      <img 
+        src="assets/logo.svg" 
+        alt="Logo barbearia"
+      />
+    </div>
+    <div class="endereco">
+      <p><a href="privacidade.html">Política de Privacidade</a></p>
+    <address> Rua Inácio Garcia, 321 - Cid. Edson - Suzano - SP</address>
+    <p>Telefone: 11 4745-3513</p>
+    <p>Copyright 2024 | Wash Barbearia - Todos direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botão Whatsapp -->
+
+  <a 
+   href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!"
+   class="btn-whatsapp"
+   target="_blank"
+   data-aos="zoom-in-up" data-aos-delay="400"
+  >
+    <img src="assets/whatssapp.svg" alt="Botao whatsapp" />
+    <span class="tooltip-text">Agende seu horário</span>
+  </a>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
