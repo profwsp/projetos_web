@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+header, footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 1em;
+}
+.container {
+    display: flex;
+    flex: 1;
+}
+aside {
+    width: 20%;
+    background-image: url(../imagens/cafe_lateral.jpg);
+    
+    background-size: cover;
+    padding: 1em;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1em;
+}
+section {
+    flex: 1;
+    background-color: #e0e0e0;
+}

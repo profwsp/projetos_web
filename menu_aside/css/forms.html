@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Registro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 600px;
+        }
+        .form-container h2 {
+            margin-bottom: 20px;
+        }
+        .form-container label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-container input[type="text"],
+        .form-container input[type="email"],
+        .form-container input[type="password"],
+        .form-container input[type="file"],
+        .form-container input[type="number"],
+        .form-container textarea,
+        .form-container select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-container input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Formulário de Registro</h2>
+        <form>
+            <label for="first-name">Digite seu primeiro nome:</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Digite seu sobrenome:</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="email">Digite seu e-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Crie uma nova senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label>Tipo de conta (obrigatório):</label>
+            <input type="radio" id="personal" name="account-type" value="personal" required>
+            <label for="personal">Pessoal</label>
+            <input type="radio" id="business" name="account-type" value="business" required>
+            <label for="business">Negócios</label>
+
+            <label for="profile-picture">Envie uma foto de perfil:</label>
+            <input type="file" id="profile-picture" name="profile-picture">
+
+            <label for="age">Digite sua idade (anos):</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="referral">Como você nos conheceu? (selecione uma opção)</label>
+            <select id="referral" name="referral" required>
+                <option value="">Selecione...</option>
+                <option value="internet">Internet</option>
+                <option value="friend">Amigo</option>
+                <option value="advertisement">Publicidade</option>
+                <option value="other">Outro</option>
+            </select>
+
+            <label for="bio">Forneça uma biografia:</label>
+            <textarea id="bio" name="bio" rows="4">Eu gosto de programar na praia...</textarea>
+
+            <label>
+                <input type="checkbox" name="terms" required> Eu aceito os termos e condições
+            </label>
+
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>

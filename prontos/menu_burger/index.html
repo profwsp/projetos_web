@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<nav class="navegar">
+    <div id="menuAlternar">
+      <!--
+      Uma caixa de seleção falsa/oculta é usada como receptor de cliques,
+      então você pode usar o seletor :checked nele.
+      -->
+      <input type="checkbox"> 
+      
+      <!--
+      Alguns vãos para funcionar como hambúrguer.
+      
+      Os traços imitam a estrutura de um verdadeiro hambúrguer,
+      não aquela coisa do McDonalds.
+      -->
+      <span></span>
+      <span></span>
+      <span></span>
+      
+      <!--
+      Os itens do menu ficam dentro checkbox e a interação é com o CSS
+      -->
+      <ul id="menu">
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>SESI</li></a>
+        <a href="#"><li>SENAI</li></a>
+        <a href="#"><li>Contato</li></a>
+        <a href="#"><li>Classroom</li></a>
+      </ul>
+    </div>
+  </nav>
+</body>
+</html>
